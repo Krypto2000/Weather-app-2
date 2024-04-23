@@ -1,0 +1,448 @@
+
+body{
+    background-image: url(./assest/noaa-0ETSZYPjvDo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weather_header {
+    float: right;
+    flex-wrap: wrap;
+}
+input{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    border-radius: 5px;
+    }
+input::placeholder{
+     color: #fff;
+}
+.weather_search{
+    position: relative;
+}
+.weather_search{
+    position: absolute;
+    right: 990px;
+    top: 10px;
+}
+.weather_search i{
+position: absolute;
+left: 150px;
+top: 12px;
+font-size: 15px;
+color: #fff;
+}
+
+.weather_header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.weather_header ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.weather_header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.weather_header ul li a:hover {
+    color: #007bff;
+}
+.weather_header  i{
+top: 10px;
+font-size: 15px;
+color: #fff;
+margin-right: 30px;
+}
+.weather_time{
+    display: flex;
+    width: 100%;
+   
+}
+.weather_city{
+    float: left;
+    position: relative; 
+    margin-left: 5rem;
+    
+}
+.weather_city h2 {
+    
+    color: white;
+    font-size: 50px;
+}
+.weather_city p{
+    position: absolute;
+    left: 10px;
+    bottom: -20px;
+    color: white;
+    font-size: 30px;
+}
+.weather_snow{
+    margin-left: 50rem;
+    margin-top: 2rem;
+    position: relative;
+    width: 20%;
+}
+.weather_snow img{
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    margin-bottom: 5rem;
+    width: 20%;
+    margin-right: -15rem;
+    margin-top: 2rem;
+}
+.weather_snow h3{
+    position: absolute;
+    margin-left: 20rem;
+color: white;
+font-size: 27px;
+
+}
+.weather_snow .Monday{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    right: 20px;
+    color: #ffffffa8;
+    margin-left: 18rem;
+}
+.weather_snow .PC{
+    position: absolute;
+    color: #ffffffa8;
+    top: 60px;
+    left: 20px;
+    margin-left: 20rem;
+    
+    
+}
+
+.temperature{
+    display: flex;
+    margin-top: 50rem;
+    width: 100%;
+}
+.current_temperature{
+    margin: auto 5rem;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    width: 30%;
+    height: 45vh;
+    position: relative;
+    background-color: rgba( 225, 225, 225, 0.2);
+    backdrop-filter: blur(7px);
+    
+}
+.current_temperature img{
+    position: absolute;
+    left: 250px;
+    width: 20%;
+    
+}
+ h4{
+    font-size: 20px;
+    color: #fff;
+    
+}
+.current_temperature .tempdegree{
+    font-size: 80px;
+    position: absolute;
+    left: 110px;
+    bottom: 20px;
+}
+.current_temperature .words{
+    position: absolute;
+   bottom: 20px;
+ 
+}
+.current_temperature .word{
+    position: absolute;
+   bottom: 2px;
+ 
+}
+.current_temperature p{
+    color: #ffffffa8;
+}
+hr{
+    border: 1px solid #fff;
+}
+.current_weather{
+    height: 45vh;
+    width: 70%;
+    margin: auto 5rem;
+    padding: 2rem 1.5rem;
+    border-radius: 15px;
+    background-color: rgba( 225, 225, 225, 0.2);
+    backdrop-filter: blur(7px);
+}
+.current_weather .time{
+    color: #ffffffa8;
+}
+.time_weather{
+    position: relative;
+    display: flex;
+}
+.tw2{
+float: right;
+}
+.time_weather .cw{
+    font-size: 30px;
+    color: #fff;
+}
+.time_weather .Birmingham{
+    position: absolute;
+    left: 450px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.humidity {
+    display: flex;
+}
+.humid_1{
+    display: flex;
+    position: relative;
+}
+.humid_1 img{
+    position: absolute;
+    height: 20px;
+    top: 15px;
+}
+.humid_1 p{
+   position: absolute;
+    left: 20px;
+    color: #fff;
+}
+.humid_percentage{
+    position: relative;
+    margin-left: 32rem;
+    margin-top: 10px;
+    color: #fff;
+}
+.humid_percentage p{
+    position: absolute;
+    left: 200px;
+    color: #fff;
+}
+.humidity_2 {
+    display: flex;
+    margin: 3rem;
+   
+}
+.humid_2{
+    display: flex;
+    position: relative;
+    width: 50%;
+    
+}
+.humid_2 img{
+    position: absolute;
+    height: 20px;
+    top: 15px;
+    left: -50px;
+    
+}
+.humid_2 p{
+   position: absolute;
+    left: -25px;
+    color: #fff;
+}
+.humid_percentage_2{
+    position: relative;
+    margin-left: 18rem;
+    margin-right: 2rem;
+    color: rgb(0, 128, 0);
+}
+
+.humidity_3 {
+    display: flex;
+    margin: 3rem;
+}
+.humid_3{
+    display: flex;
+    position: relative;
+    width: 50%;
+    }
+.humid_3 img{
+    position: absolute;
+    height: 20px;
+    top: 15px;
+    left: -50px;
+    margin-top: -0.4rem;
+
+    
+}
+.humid_3 p{
+   position: absolute;
+    left: -25px;
+    margin-top: 0.4rem;
+    color: #fff;
+}
+.humid_percentage_3{
+    position: relative;
+    width: 100%;
+    margin-left: 25rem;
+   color: #fff;
+   
+   
+}
+.humid_percentage_3 p{
+    position: absolute;
+    left: 260px;
+    margin-left: 3rem;
+    top: 5px;
+    font-size: 12px;
+    color: #fff;
+   
+}
+.view_report{
+    justify-content: center;
+    text-align: center;
+    margin-left: 17rem;
+    
+}
+
+.view_report_press{
+    width: 20%;
+    border: 1px solid white;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    padding: 0.1rem;
+    
+    
+}
+.view_report a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.view_report1{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    margin-left: 4.9rem;
+    background-color: rgba( 225, 225, 225, 0.2);
+    height: 7vh;
+    width: 89%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid none;
+    
+}
+.view_report_press1{
+    justify-content: center;
+    align-items: center;
+    
+}
+.view_report1 a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+@media (max-width:936px){
+    .container{
+        width: 100%;
+    }
+    .time_weather .cw{
+        font-size: 24px;
+    }
+    .weather_header{
+        display: none;
+        
+    }
+    .weather_city h2{
+        font-size: 20px;
+    }
+    .temperature{
+        width: 100%;
+    }
+    .current_temperature{
+        width: 40%;
+    }
+    .current_weather{
+        width: 50%;
+        margin-left: -3rem;
+        position: relative;
+    }
+    .time_weather{
+        position: relative;
+    }
+    .time_weather .Birmingham{
+        position: absolute;
+        margin-right: 5rem;
+        left: 280px;
+        
+    }
+    .current_temperature img{
+       
+        margin-left: -11rem;
+        width: 50%;
+        
+    }
+    .current_temperature {
+        position: relative;
+    }
+    .current_temperature .word{
+     bottom: -1rem;
+    }
+    
+    .current_temperature .tempdegree{
+        font-size: 60px;
+        margin-left: -3rem;
+        
+    }
+    .weather_header{
+        display: flex;
+    }
+    .weather_units{
+        margin-bottom: 1rem;
+    }
+    .humid_percentage{
+        position: relative;
+        margin-left: 22rem;
+        
+        
+    }
+    
+   
+    .weather_snow .Monday{
+       margin-left: -10rem;
+    }
+    .weather_snow .PC{
+        margin-left: -8rem;
+     }
+     .weather_snow h3{
+        margin-left: -10rem;
+     }
+     
+     
+    .weather_city{
+        margin-top: 5rem;
+    }
+    .humid_percentage{
+        color: green;
+    }
+    .humid_percentage_2{
+        color: green;
+    }
+    .humid_percentage_3{
+        
+        margin-left:18rem;
+        color: green;
+        
+    }
+    
+    
+}
